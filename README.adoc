@@ -193,14 +193,11 @@ git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        Makefile
-        "images/sample01_class_01(\345\217\244\343\201\204).png"
-        images/sample01_class_01.png
-        sample01_maehara
-
-nothing added to commit but untracked files present (use "git add" to track)
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    images/sample01_class_01.png
+----
 
 問題がなければプッシュしなさい。問題があれば、TAに相談しなさい。
 
@@ -216,6 +213,7 @@ Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/cit-prjex-2025/sample-code-and-model-ciyo23094
    4b2c06e..752b65c  main -> main
+----
 
 また、 `git log` を実行して過去の処理について確認しなさい。
 
