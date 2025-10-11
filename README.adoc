@@ -207,6 +207,15 @@ nothing added to commit but untracked files present (use "git add" to track)
 [source,shell]
 ----
 git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 309 bytes | 309.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/cit-prjex-2025/sample-code-and-model-ciyo23094
+   4b2c06e..752b65c  main -> main
 
 また、 `git log` を実行して過去の処理について確認しなさい。
 
